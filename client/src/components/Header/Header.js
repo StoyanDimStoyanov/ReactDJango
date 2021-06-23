@@ -22,9 +22,9 @@ class Header extends Component {
             <StyledHeader>
 
                 <nav>
-                    <StyledLink to='/home'>Home</StyledLink>
-                    <StyledLink to='/login'>Login</StyledLink>
-                    <StyledLink to='/register'>Register</StyledLink>
+                    <StyledLink to='/'>Home</StyledLink>
+                    <StyledLink to='/SignIn'>Sign in</StyledLink>
+                    <StyledLink to='/SignUp'>Sign Up</StyledLink>
                 </nav>
             </StyledHeader>
         )

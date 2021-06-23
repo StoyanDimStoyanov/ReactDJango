@@ -10,7 +10,7 @@ class Login extends Component{
         return (
             <div>
                 <h1>
-                    Login
+                    Sign Up
                 </h1>
             </div>
         )
