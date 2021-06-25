@@ -16,7 +16,7 @@ const StyledFooter = styled.footer`
 function Footer() {
     return (
         <StyledFooter >
-            <p style={{margin: "0px"}}></p>
+            <p style={{margin: "0px"}}>lorem ipsum dolor</p>
             <p style={{margin: "0px"}}>Contact:</p>
             <a target='_blank' rel="noreferrer" href="https://github.com/StoyanDimStoyanov/">https://github.com/StoyanDimStoyanov/</a>
         </StyledFooter>
