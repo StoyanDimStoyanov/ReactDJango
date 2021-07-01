@@ -2,7 +2,7 @@ import { Component } from "react";
 // import styled from "styled-components";
 
 
-class Login extends Component{
+class SignIn extends Component{
 
     
 
@@ -10,11 +10,11 @@ class Login extends Component{
         return (
             <div>
                 <h1>
-                    Sign Up
+                    Sign In
                 </h1>
             </div>
         )
     }
 };
 
-export default Login;
+export default SignIn;

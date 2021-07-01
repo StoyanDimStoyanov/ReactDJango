@@ -3,18 +3,18 @@ import { Component } from "react";
 
 
 
-class Register extends Component{
+class SignUp extends Component{
 
     
 
     render() {
         return (
             <div>
-                <h1>Register</h1>
+                <h1>SignUp</h1>
             </div>
             
         )
     }
 };
 
-export default Register;
+export default SignUp;

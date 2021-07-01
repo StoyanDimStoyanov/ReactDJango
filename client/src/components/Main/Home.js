@@ -1,6 +1,7 @@
 import { Component } from "react";
 import styled from "styled-components";
 import ButtonLink from "../ButtonLink";
+import { Block } from "../Header/Header";
 
 const StyledContainer = styled.div`
     background-color: inherit;
@@ -59,11 +60,11 @@ class Home extends Component {
                     <P>Share your pet photos</P>
                     <Container>
                         <p>Already have an account?</p>
-                        <ButtonLink to="Sign in" title="Sign in"></ButtonLink>
+                        <Block> <ButtonLink to="Sign in" title="Sign in"></ButtonLink></Block>
                     </Container>
                     <Container>
                         <p>Do not have an account?</p>
-                        <ButtonLink to="SignUp" title="Sign up"></ButtonLink>
+                        <Block><ButtonLink to="SignUp" title="Sign up"></ButtonLink></Block>
                     </Container>
 
                 </StyledContainer>
